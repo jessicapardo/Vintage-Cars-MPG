@@ -334,17 +334,17 @@ MPG,Cylinders,Displacement,Horsepower,Weight,Acceleration,Model Year,Origin,Make
 36,4,79,58,1825,18.6,77,2,Renault,5 gtl,France
 40.9,4,85,27,1835,17.3,80,2,Renault,lecar deluxe,France
 34.5,4,100,30,2320,15.8,81,2,Renault,18i ,France
-11,8,380,189,4648,11,70,1,Rolls Royce,silver shadow,England
-11,8,380,189,4648,11,71,1,Rolls Royce,silver shadow,England
-12,8,380,189,4648,11,72,1,Rolls Royce,silver shadow,England
-12,8,380,189,4648,11,73,1,Rolls Royce,silver shadow,England
-12,8,380,189,4648,11,74,1,Rolls Royce,silver shadow,England
-12,8,380,189,4648,11,75,1,Rolls Royce,silver shadow,England
-12,8,380,189,4648,11,76,1,Rolls Royce,silver shadow,England
-12,8,380,189,4648,11,77,1,Rolls Royce,silver shadow II,England
-12,8,380,189,4648,11,78,1,Rolls Royce,silver shadow II,England
-12,8,380,189,4648,11,79,1,Rolls Royce,silver shadow II,England
-12,8,380,189,4648,11,80,1,Rolls Royce,silver shadow II,England
+11,8,380,189,4648,11,70,2,Rolls Royce,silver shadow,England
+11,8,380,189,4648,11,71,2,Rolls Royce,silver shadow,England
+12,8,380,189,4648,11,72,2,Rolls Royce,silver shadow,England
+12,8,380,189,4648,11,73,2,Rolls Royce,silver shadow,England
+12,8,380,189,4648,11,74,2,Rolls Royce,silver shadow,England
+12,8,380,189,4648,11,75,2,Rolls Royce,silver shadow,England
+12,8,380,189,4648,11,76,2,Rolls Royce,silver shadow,England
+12,8,380,189,4648,11,77,2,Rolls Royce,silver shadow II,England
+12,8,380,189,4648,11,78,2,Rolls Royce,silver shadow II,England
+12,8,380,189,4648,11,79,2,Rolls Royce,silver shadow II,England
+12,8,380,189,4648,11,80,2,Rolls Royce,silver shadow II,England
 25,4,104,95,2375,17.5,70,2,Saab,99e ,Sweden
 24,4,121,110,2660,14,73,2,Saab,99le ,Sweden
 25,4,121,115,2671,13.5,75,2,Saab,99le ,Sweden
