@@ -23,16 +23,16 @@ Nine worksheets each have a visualization. The visualizations are brought togeth
 <br>
 Our story begins in 1970...Elvis Presley and Creedence Clearwater Revival played on the radios of heavy cars that boasted big engines and horsepower. Gas was cheap and the cars averaged 17 MPG. By 1982 the world's industrialized countries had suffered two oil crises and Elvis had left the building. Engine horsepower was down to 81hp but fuel efficiency was up 88%.<br>
 <br>
-<p align="center"><kbd><img width="700" height="auto" src="images/hp.PNG"></kbd><br>
+<p align="center"><kbd><img width="700" height="auto" src="images/hp.PNG"></kbd></p><br>
 <br>
 Next the user explores how country of origin influences fuel efficiency.  Asia is the frontrunner for the time period with the United States and England trailing the pack. The user can select which year(s) to view and tooltips provides the average metrics for each field.
 <p align="center"><kbd><img width="700" height="auto" src="images/map.PNG"></kbd><br>
 <br>  
 Individual make and fuel efficiency are examined in the third dashboard. The dashboard is generous with labels to provide an easy view of data and, again, tooltips are utilized to provide a wider data view. A summary by country also functions as a legend in the lower right corner.
-<p align="center"><kbd><img width="700" height="auto" src="images/make.PNG"></kbd><br>
+<p align="center"><kbd><img width="700" height="auto" src="images/make.PNG"></kbd></p><br>
 <br>
 The user then explicity views the 46% reduction in horsepower between 1970 and 1982. 
-<p align="center"><kbd><img width="700" height="auto" src="images/hp-mpg.PNG"></kbd><br>
+<p align="center"><kbd><img width="700" height="auto" src="images/hp-mpg.PNG"></kbd></p><br>
 <br>  
 Engine metrics roar to life in the final dashboard.  A 28% decrease in weight and the 46% decrease in horsepower contributed to the 88% MPG improvement and a 31% improvement in acceleration. blended and dual axis scales allowed the three independent metrics to show with a shared x-axis.  Horsepower was not able to be blennded in without an unfortunate side effect of an inaccurate tooptip.  having been thoroughly explored on prior dashboards the decision was made to keep the tooltip instead.
 <p align="center"><kbd><img width="700" height="auto" src="images/metrics.PNG"></kbd><br>
