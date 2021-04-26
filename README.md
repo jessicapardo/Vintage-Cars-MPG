@@ -1,6 +1,6 @@
 <html>
 
-<p align="left"><img width="500" height="auto" src="images/header.PNG">          
+<p align="left"><img width="1000" height="auto" src="images/header.PNG">          
 <body>
 <p>
 <h2>Predicting the Gas Mileage of your New Vintage Car</h2>
