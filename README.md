@@ -7,9 +7,9 @@
 The project intertwines Tableau and Machine learning to predict mpg values for cars in the 70's and 80's and deployed utilizing Tableau Public at: <a href="https://public.tableau.com/profile/dana.woodruff#!/vizhome/Vintage-Car-MPG/VintageCars?publish=yes">Vintage-Cars-MPG.</a><br> 
   
 <h2>Vintage Cars' Journey Towards Fuel Efficiency - with user interactivity</h2>
-Tableau visualizes the journey automobiles took from 1970 to 1982 as world events incentivized manufacturers to reduce vehicle weight and horsepower to improve fuel efficiency. Our road begins with understanding how world oil prices and MPG trended over the twelve years included in the dataset.
+Tableau visualizes the journey automobiles took from 1970 to 1982 as world events incentivized manufacturers to reduce vehicle weight and horsepower to improve fuel efficiency. Our road begins with understanding how world oil prices and MPG trended over the twelve years included in the dataset.<br>
 <br>
-<p align="center"><kbd><img width="700" height="auto" src="images/oil$.PNG"></kbd><br>
+<p align="center"><kbd><img width="700" height="auto" src="images/oil$.PNG"></kbd>
 <br>
 <h3>Data</h3>
 Data is gratiously sourced from <a href="http://archive.ics.uci.edu/ml/datasets/Auto+MPG">Kaggle and the University of California, Irvine.</a><br>
