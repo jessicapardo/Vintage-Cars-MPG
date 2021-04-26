@@ -4,7 +4,7 @@
 <body>
 <p>
 <h2>Predicting the Gas Mileage of your New Vintage Car</h2>
-The project intertwines Tableau and Machine learning to predict mpg values for cars in the 70's and 80's and deployed utilizing Tableau Public at: <a href="https://public.tableau.com/profile/dana.woodruff#!/vizhome/Vintage-Car-MPG/VintageCars?publish=yes">Houston Bcycle Story.</a><br> 
+The project intertwines Tableau and Machine learning to predict mpg values for cars in the 70's and 80's and deployed utilizing Tableau Public at: <a href="https://public.tableau.com/profile/dana.woodruff#!/vizhome/Vintage-Car-MPG/VintageCars?publish=yes">Vintage-Cars-MPG.</a><br> 
   
 <h2>Vintage Cars' Journey Towards Fuel Efficiency - with user interactivity</h2>
 Tableau visualizes the journey automobiles took from 1970 to 1982 as world events incentivized manufacturers to reduce vehicle weight and horsepower to improve fuel efficiency. our road begins with understanding how world oil prices and MPG trended over the twelve years included in the dataset.
