@@ -25,7 +25,7 @@ Our story begins in 1970...Elvis Presley and Creedence Clearwater Revival played
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/hp.PNG"></kbd><br>
 <br>
-Next the user explores how country of origin inlfuences fuel efficiency.  Asia is the frontrunner for the time period with the United States and England trailing the pack. The user can select which year(s) to view. The tooltip provides the average metrics for each field.
+Next the user explores how country of origin influences fuel efficiency.  Asia is the frontrunner for the time period with the United States and England trailing the pack. The user can select which year(s) to view and tooltips provides the average metrics for each field.
 <p align="center"><kbd><img width="700" height="auto" src="images/map.PNG"></kbd><br>
 <br>  
 Individual make and fuel efficiency are examined in the third dashboard. The dashboard is generous with labels to provide an easy view of data and, again, tooltips are utilized to provide a wider data view. A summary by country also functions as a legend in the lower right corner.
