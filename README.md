@@ -21,7 +21,7 @@ The original data .csv file is relatively clean.  It is a small dataset, approxi
 <h3>Dashboards and Story</h3>
 Nine worksheets each have a visualization. The visualizations are brought together on five dashboards which are then presented as a story.  The main filter serves to retrieve data for each year unless the data is presented as a time series. The story captions summarize each dashboard and guide the user through the dashboards.<br>
 <br>
-Our story begins in 1970...Elvis Presley and Creedence Clearwater Revival played on the radios of heavy cars that boasted big engines and horsepower. Gas was cheap and the cars averaged 17 MPG.<br>
+Our story begins in 1970...Elvis Presley and Creedence Clearwater Revival played on the radios of heavy cars that boasted big engines and horsepower. Gas was cheap and the cars averaged 17 MPG. By 1982 the world's industrialized countries had suffered two oil crises and Elvis had left the building. Engine horsepower was down to 81hp but fuel efficiency was up 88%.<br>
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/hp.PNG"></kbd><br>
 <br>
