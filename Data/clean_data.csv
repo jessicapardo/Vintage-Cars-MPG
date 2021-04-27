@@ -1,4 +1,4 @@
-mpg,cylinders,displacement,horsepower,weight,acceleration,model year,origin,make,model,country
+mpg,cylinders,displacement,horsepower,weight,acceleration,year,origin,make,model,country
 9.0,8,304.0,193.0,4732,18.5,70,1,international (IHC),1200d ,United States
 10.0,8,307.0,200.0,4376,15.0,70,1,chevrolet,c20 ,United States
 10.0,8,360.0,215.0,4615,14.0,70,1,ford,f250 ,United States
