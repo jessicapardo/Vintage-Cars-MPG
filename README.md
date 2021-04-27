@@ -43,25 +43,25 @@ Engine metrics roar to life in the final dashboard.  A 28% decrease in weight an
 <br>
 <h3>Machine Learning</h3>
 <br>
-The <a href="http://archive.ics.uci.edu/ml/datasets/Auto+MPG">dataset</a> is imported into Jupyter Notebook and read into a pandas dataframe.  Data is examined for null values and understood prior to machine learning model implementation.
+The <a href="http://archive.ics.uci.edu/ml/datasets/Auto+MPG">dataset</a> is imported into Jupyter Notebook and read into a pandas dataframe.  Data is examined for null values and understood prior to machine learning model implementation.<br>
 <br>
-<p align="center"><kbd><img width="700" height="auto" src="images/ml1.PNG"></kbd></p><br>
+<p align="center"><kbd><img width="700" height="auto" src="images/ml1.PNG"></kbd></p>
 <br>
 Pandas' "describe" function is used to understand the dataset's fields relationship to one another.
 <br>
-<p align="center"><kbd><img width="700" height="auto" src="images/ml2.PNG"></kbd></p><br>
+<p align="center"><kbd><img width="700" height="auto" src="images/ml2.PNG"></kbd></p><
 <br>
 Examination for correlations is made both as a dataframe and a visualization.
 <br>
-<p align="center"><kbd><img width="700" height="auto" src="images/ml3.PNG"></kbd></p><br>
+<p align="center"><kbd><img width="700" height="auto" src="images/ml3.PNG"></kbd></p>
 <br>
 Pair plots, another correlation tool, clearly demonstrates that "cylinders" and "origin" fields do not shows a normal distribution as they represent a specific value and can be considered categorical values.
 <br>
-<p align="center"><kbd><img width="700" height="auto" src="images/ml4.PNG"></kbd></p><br>
+<p align="center"><kbd><img width="700" height="auto" src="images/ml4.PNG"></kbd></p>
 <br>
 Training of the data begins.
 <br>
-<p align="center"><kbd><img width="700" height="auto" src="images/ml5.PNG"></kbd></p><br>
+<p align="center"><kbd><img width="700" height="auto" src="images/ml5.PNG"></kbd></p>
 <br>
 Linear models explored include Linear, Ridge, Lasso, and ElasticNet.  
 <br>
@@ -69,15 +69,15 @@ Linear models explored include Linear, Ridge, Lasso, and ElasticNet.
 <br>
 Random Forest models explored are DecisionTree, Random Forest, AdaBoost, and Gradient Boost.
 <br>
-<p align="center"><kbd><img width="700" height="auto" src="images/randomforest.PNG"></kbd></p><br>
+<p align="center"><kbd><img width="700" height="auto" src="images/randomforest.PNG"></kbd></p>
 <br>
 Model results were viewed as a dataframe for easy comparison.
 <br>
-<p align="center"><kbd><img width="700" height="auto" src="images/ml6.PNG"></kbd></p><br>
+<p align="center"><kbd><img width="700" height="auto" src="images/ml6.PNG"></kbd></p>
 <br>
 The Random Forest model was choosen because it has the lowest RMSE and doesn't overfit the in sample data. 
 <br>
-<p align="center"><kbd><img width="700" height="auto" src="images/rf-final.PNG"></kbd></p><br>
+<p align="center"><kbd><img width="700" height="auto" src="images/rf-final.PNG"></kbd></p>
 <br>
 <p align="center"><kbd><img width="1000" height="100" src="images/header.PNG"></kbd><br>                     
 
