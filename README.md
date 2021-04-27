@@ -65,7 +65,7 @@ Training of the data begins...<br>
 <br>
 Linear models explored include Linear, Ridge, Lasso, and ElasticNet.  <br>
 <br>
-<p align="center"><kbd><img width="380" height="auto" hspace="35" src="images/linear.PNG"></kbd>&nbsp;<kbd><img width="380" height="auto" hspace="35" src="images/elasticnet.PNG"></kbd></p>
+<p align="center"><kbd><img width="390" height="auto" hspace="35" src="images/linear.PNG"></kbd>&nbsp;<kbd><img width="390" height="auto" hspace="35" src="images/elasticnet.PNG"></kbd></p>
 <br>
 Random Forest models explored are DecisionTree, Random Forest, AdaBoost, and Gradient Boost.<br>
 <br>
