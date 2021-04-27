@@ -40,7 +40,10 @@ The user then explicity views the 46% reduction in horsepower between 1970 and 1
 Engine metrics roar to life in the final dashboard.  A 28% decrease in weight and the 46% decrease in horsepower contributed to the 88% MPG improvement and a 31% improvement in acceleration. blended and dual axis scales allowed the three independent metrics to show with a shared x-axis.  Horsepower was not able to be blended in without an unfortunate side effect of an inaccurate tooptip.  having been thoroughly explored on prior dashboards the decision was made to keep the tooltip instead.<br>
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/metrics.PNG"></kbd></p><br>
-<br>*********************************************************************************************
+<br>
+<h3>Machine Learning</h3>
+<br>
+
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/ml1.PNG"></kbd></p><br>
 <br>
@@ -54,7 +57,7 @@ Engine metrics roar to life in the final dashboard.  A 28% decrease in weight an
 <p align="center"><kbd><img width="700" height="auto" src="images/ml4.PNG"></kbd></p><br>
 <br>
 <br>
-<p align="center"><kbd><img width="400" height="auto" hspace="25" src="images/linear.PNG"></kbd>&nbsp;<kbd><img width="400" height="auto" hspace="25" src="images/elasticnet.PNG"></kbd></p>
+<p align="center"><kbd><img width="360" height="auto" hspace="25" src="images/linear.PNG"></kbd>&nbsp;<kbd><img width="360" height="auto" hspace="25" src="images/elasticnet.PNG"></kbd></p>
 <br>
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/randomforest.PNG"></kbd></p><br>
