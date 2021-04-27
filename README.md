@@ -55,11 +55,11 @@ Examination for correlations is made both as a dataframe and a visualization.<br
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/ml3.PNG"></kbd></p>
 <br>
-Pair plots, another correlation tool, clearly demonstrates that "cylinders" and "origin" fields do not shows a normal distribution as they represent a specific value and can be considered categorical values.
+Pair plots, another correlation tool, clearly demonstrates that "cylinders" and "origin" fields do not shows a normal distribution as they represent a specific value and can be considered categorical values.<br>
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/ml4.PNG"></kbd></p>
 <br>
-Training of the data begins.<br>
+Training of the data begins...<br>
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/ml5.PNG"></kbd></p>
 <br>
