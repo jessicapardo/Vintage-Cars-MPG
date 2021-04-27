@@ -23,7 +23,7 @@ Nine worksheets each have a visualization. The visualizations are brought togeth
 <br>
 Our story begins in 1970...Elvis Presley and Creedence Clearwater Revival played on the radios of heavy cars that boasted big engines and horsepower. Gas was cheap and the cars averaged 17 MPG. By 1982 the world's industrialized countries had suffered two oil crises and Elvis had left the building. Engine horsepower was down to 81hp but fuel efficiency was up 88%.<br>
 <br>
-<p align="center"><kbd><img width="700" height="auto" src="images/hp.PNG"></kbd></p>
+<p align="center"><kbd><img width="350" height="auto" src="images/hp.PNG"></kbd></p>
 <br>
 Next the user explores how country of origin influences fuel efficiency.  Asia is the frontrunner for the time period with the United States and England trailing the pack. The user can select which year(s) to view and tooltips provides the average metrics for each field.<br>
 <br>
@@ -54,7 +54,7 @@ Engine metrics roar to life in the final dashboard.  A 28% decrease in weight an
 <p align="center"><kbd><img width="700" height="auto" src="images/ml4.PNG"></kbd></p><br>
 <br>
 <br>
-<p align="center"><kbd><img width="250" height="auto" hspace="25" src="images/linear.PNG"></kbd>&nbsp;<kbd><img width="250" height="auto" src="images/elasticnet.PNG"></kbd></p>
+<p align="center"><kbd><img width="350" height="auto" hspace="25" src="images/linear.PNG"></kbd>&nbsp;<kbd><img width="350" height="auto" src="images/elasticnet.PNG"></kbd></p>
 <br>
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/randomforest.PNG"></kbd></p><br>
