@@ -47,11 +47,11 @@ The <a href="http://archive.ics.uci.edu/ml/datasets/Auto+MPG">dataset</a> is imp
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/ml1.PNG"></kbd></p>
 <br>
-Pandas' "describe" function is used to understand the dataset's fields relationship to one another.
+Pandas' "describe" function is used to understand the dataset's fields relationship to one another.<br>
 <br>
-<p align="center"><kbd><img width="700" height="auto" src="images/ml2.PNG"></kbd></p><
+<p align="center"><kbd><img width="700" height="auto" src="images/ml2.PNG"></kbd></p>
 <br>
-Examination for correlations is made both as a dataframe and a visualization.
+Examination for correlations is made both as a dataframe and a visualization.<br><br>
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/ml3.PNG"></kbd></p>
 <br>
@@ -59,23 +59,23 @@ Pair plots, another correlation tool, clearly demonstrates that "cylinders" and 
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/ml4.PNG"></kbd></p>
 <br>
-Training of the data begins.
+Training of the data begins.<br>
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/ml5.PNG"></kbd></p>
 <br>
-Linear models explored include Linear, Ridge, Lasso, and ElasticNet.  
+Linear models explored include Linear, Ridge, Lasso, and ElasticNet.  <br>
 <br>
 <p align="center"><kbd><img width="370" height="auto" hspace="35" src="images/linear.PNG"></kbd>&nbsp;<kbd><img width="370" height="auto" hspace="35" src="images/elasticnet.PNG"></kbd></p>
 <br>
-Random Forest models explored are DecisionTree, Random Forest, AdaBoost, and Gradient Boost.
+Random Forest models explored are DecisionTree, Random Forest, AdaBoost, and Gradient Boost.<br>
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/randomforest.PNG"></kbd></p>
 <br>
-Model results were viewed as a dataframe for easy comparison.
+Model results were viewed as a dataframe for easy comparison.<br>
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/ml6.PNG"></kbd></p>
 <br>
-The Random Forest model was choosen because it has the lowest RMSE and doesn't overfit the in sample data. 
+The Random Forest model was choosen because it has the lowest RMSE and doesn't overfit the in sample data.<br> 
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/rf-final.PNG"></kbd></p>
 <br>
