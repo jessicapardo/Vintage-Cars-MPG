@@ -54,7 +54,7 @@ Engine metrics roar to life in the final dashboard.  A 28% decrease in weight an
 <p align="center"><kbd><img width="700" height="auto" src="images/ml4.PNG"></kbd></p><br>
 <br>
 <br>
-<p align="center"><kbd><img width="350" height="auto" hspace="25" src="images/linear.PNG"></kbd>&nbsp;<kbd><img width="350" height="auto" src="images/elasticnet.PNG"></kbd></p>
+<p align="center"><kbd><img width="400" height="auto" hspace="25" src="images/linear.PNG"></kbd>&nbsp;<kbd><img width="400" height="auto" hspace="25" src="images/elasticnet.PNG"></kbd></p>
 <br>
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/randomforest.PNG"></kbd></p><br>
