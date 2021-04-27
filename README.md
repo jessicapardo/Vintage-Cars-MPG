@@ -23,7 +23,7 @@ Nine worksheets each have a visualization. The visualizations are brought togeth
 <br>
 Our story begins in 1970...Elvis Presley and Creedence Clearwater Revival played on the radios of heavy cars that boasted big engines and horsepower. Gas was cheap and the cars averaged 17 MPG. By 1982 the world's industrialized countries had suffered two oil crises and Elvis had left the building. Engine horsepower was down to 81hp but fuel efficiency was up 88%.<br>
 <br>
-<p align="center"><kbd><img width="700" height="auto" src="images/hp.PNG"></kbd></p>
+<p align="center"><kbd><img width="350" height="auto" src="images/hp.PNG"></kbd></p>
 <br>
 Next the user explores how country of origin influences fuel efficiency.  Asia is the frontrunner for the time period with the United States and England trailing the pack. The user can select which year(s) to view and tooltips provides the average metrics for each field.<br>
 <br>
@@ -41,7 +41,44 @@ Engine metrics roar to life in the final dashboard.  A 28% decrease in weight an
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/metrics.PNG"></kbd></p><br>
 <br>
-
+<h3>Machine Learning</h3>
+<br>
+The <a href="http://archive.ics.uci.edu/ml/datasets/Auto+MPG">dataset</a> is imported into Jupyter Notebook and read into a pandas dataframe.  Data is examined for null values and understood prior to machine learning model implementation.<br>
+<br>
+<p align="center"><kbd><img width="700" height="auto" src="images/ml1.PNG"></kbd></p>
+<br>
+Pandas' "describe" function is used to understand the dataset's fields relationship to one another.<br>
+<br>
+<p align="center"><kbd><img width="700" height="auto" src="images/ml2.PNG"></kbd></p>
+<br>
+Examination for correlations is made both as a dataframe and a visualization.<br><br>
+<br>
+<p align="center"><kbd><img width="700" height="auto" src="images/ml3.PNG"></kbd></p>
+<br>
+Pair plots, another correlation tool, clearly demonstrates that "cylinders" and "origin" fields do not shows a normal distribution as they represent a specific value and can be considered categorical values.<br>
+<br>
+<p align="center"><kbd><img width="700" height="auto" src="images/ml4.PNG"></kbd></p>
+<br>
+Training of the data begins...<br>
+<br>
+<p align="center"><kbd><img width="700" height="auto" src="images/ml5.PNG"></kbd></p>
+<br>
+Linear models explored include Linear, Ridge, Lasso, and ElasticNet.  <br>
+<br>
+<p align="center"><kbd><img width="410" height="auto" hspace="15" src="images/linear.PNG"></kbd>&nbsp;&nbsp;&nbsp;<kbd><img width="410" height="auto" hspace="15" src="images/elasticnet.PNG"></kbd></p>
+<br>
+Random Forest models explored are DecisionTree, Random Forest, AdaBoost, and Gradient Boost.<br>
+<br>
+<p align="center"><kbd><img width="700" height="auto" src="images/randomforest.PNG"></kbd></p>
+<br>
+Model results were viewed as a dataframe for easy comparison.<br>
+<br>
+<p align="center"><kbd><img width="700" height="auto" src="images/ml6.PNG"></kbd></p>
+<br>
+The Random Forest model was choosen because it has the lowest RMSE and doesn't overfit the in sample data.<br> 
+<br>
+<p align="center"><kbd><img width="700" height="auto" src="images/rf-final.PNG"></kbd></p>
+<br>
 <p align="center"><kbd><img width="1000" height="100" src="images/header.PNG"></kbd><br>                     
 
 </body>
