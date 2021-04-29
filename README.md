@@ -45,7 +45,7 @@ Engine metrics roar to life in the final two dashboards.  A 28% decrease in weig
 <br>
 Blended and dual axis scales allowed the three independent metrics to show with a shared x-axis.<br>
 <br>
-<p align="center"><kbd><img width="390" height="auto" hspace="15" src="images/metrics.PNG"></kbd></p>&nbsp;&nbsp;&nbsp;<kbd><img width="390" height="auto" hspace="15" src="images/metrics2.PNG"></kbd></p>
+<p align="center"><kbd><img width="390" height="auto" src="images/metrics.PNG"></kbd>&nbsp;&nbsp;&nbsp;<kbd><img width="390" height="auto" src="images/metrics2.PNG"></kbd></p>
 <br>
 <h3>Machine Learning</h3>
 <br>
@@ -71,7 +71,7 @@ Training of the data begins...<br>
 <br>
 Linear models explored include Linear, Ridge, Lasso, and ElasticNet.  <br>
 <br>
-<p align="center"><kbd><img width="390" height="auto" hspace="15" src="images/linear.PNG"></kbd>&nbsp;&nbsp;&nbsp;<kbd><img width="390" height="auto" hspace="15" src="images/elasticnet.PNG"></kbd></p>
+<p align="center"><kbd><img width="390" height="auto" src="images/linear.PNG"></kbd>&nbsp;&nbsp;&nbsp;<kbd><img width="390" height="auto" src="images/elasticnet.PNG"></kbd></p>
 <br>
 Random Forest models explored are DecisionTree, Random Forest, AdaBoost, and Gradient Boost.<br>
 <br>
