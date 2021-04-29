@@ -23,7 +23,7 @@ A second .csv was imported that provides inflation adjusted <a href="/Data/Oil_P
 "Model Year" and "Country" are selected as global filters for the dashboards.
 <br>
 <h3>Dashboards and Story</h3>
-Nine worksheets each have a visualization. The visualizations are brought together on five dashboards which are then presented as a story.  The main filter serves to retrieve data for each year unless the data is presented as a time series. The story captions summarize each dashboard and guide the user through the dashboards.<br>
+Ten worksheets each have a visualization. The visualizations are brought together on six dashboards which are then presented as a story.  The main filter serves to retrieve data for each year unless the data is presented as a time series. The story captions summarize each dashboard and guide the user through the dashboards.<br>
 <br>
 Our story begins in 1970...Elvis Presley and Creedence Clearwater Revival played on the radios of heavy cars that boasted big engines and horsepower. Gas was cheap and the cars averaged 17 MPG. By 1982 the world's industrialized countries had suffered two oil crises and Elvis had left the building. Engine horsepower was down to 81hp but fuel efficiency was up 88%.<br>
 <br>
@@ -41,11 +41,11 @@ The user then explicity views the 46% reduction in horsepower between 1970 and 1
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/hp-mpg.PNG"></kbd></p>
 <br>  
-Engine metrics roar to life in the final dashboard.  A 28% decrease in weight and the 46% decrease in horsepower contributed to the 88% MPG improvement and a 31% improvement in acceleration.<br>
+Engine metrics roar to life in the final two dashboards.  A 28% decrease in weight, a 45% decrease in horsepower, and a 55% decrease in engine displacement contributed to the 88% MPG improvement and a 31% improvement in acceleration.<br>
 <br>
-Blended and dual axis scales allowed the three independent metrics to show with a shared x-axis.  Horsepower was not able to be blended in without an unfortunate side effect of an inaccurate tooptip.  having been thoroughly explored on prior dashboards the decision was made to keep the tooltip instead.<br>
+Blended and dual axis scales allowed the three independent metrics to show with a shared x-axis.<br>
 <br>
-<p align="center"><kbd><img width="700" height="auto" src="images/metrics.PNG"></kbd></p><br>
+<p align="center"><kbd><img width="700" height="auto" src="images/metrics.PNG"></kbd></p>&nbsp;&nbsp;&nbsp;<kbd><img width="390" height="auto" hspace="15" src="images/metrics2.PNG"></kbd></p>
 <br>
 <h3>Machine Learning</h3>
 <br>
