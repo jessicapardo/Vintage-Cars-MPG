@@ -14,7 +14,9 @@ Tableau visualizes the journey automobiles took from 1970 to 1982 as world event
 <h3>Data</h3>
 Data is gratiously sourced from <a href="http://archive.ics.uci.edu/ml/datasets/Auto+MPG">Kaggle and the University of California, Irvine.</a><br>
 <br>
-The original data .csv file is relatively clean.  It is a small dataset, approximately 400 records, and Excel was used for the minimal cleaning required. Six null values in "horsepower" field were replaced with the manufacturers' specified values. Make and model values were separated into independent fields utilizing Excel's native "text to columns" functionality, for better Tableau visualization prospects.  "Make" was listed as unique values to spot misspellings which were then corrected and was capitalized for better tableau visualization.  the clean .csv was read into Tableau. Data fields include make, model, model year, horsepower, engine displacement, engine cylinders, acceleration, fuel efficiency, and vehicle weight. A second .csv was imported that provides <a href="/Data/Oil_Prices.xlsx">world oil prices</a> for each of the twelve years.<br>
+The original data .csv file is relatively clean.  It is a small dataset, approximately 400 records, and Excel was used for the minimal cleaning required. Six null values in "horsepower" field were replaced with the manufacturers' specified values. Make and model values were separated into independent fields utilizing Excel's native "text to columns" functionality, for better Tableau visualization prospects.  "Make" was listed as unique values to spot misspellings which were then corrected and was capitalized for better tableau visualization.  <br>
+<br>
+The clean .csv was read into Tableau. Data fields include make, model, model year, horsepower, engine displacement, engine cylinders, acceleration, fuel efficiency, and vehicle weight. A second .csv was imported that provides <a href="/Data/Oil_Prices.xlsx">world oil prices</a> for each of the twelve years.<br>
 <br>
 "Model Year" and "Country" are selected as global filters for the dashboards.
 <br>
@@ -37,7 +39,9 @@ The user then explicity views the 46% reduction in horsepower between 1970 and 1
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/hp-mpg.PNG"></kbd></p>
 <br>  
-Engine metrics roar to life in the final dashboard.  A 28% decrease in weight and the 46% decrease in horsepower contributed to the 88% MPG improvement and a 31% improvement in acceleration. blended and dual axis scales allowed the three independent metrics to show with a shared x-axis.  Horsepower was not able to be blended in without an unfortunate side effect of an inaccurate tooptip.  having been thoroughly explored on prior dashboards the decision was made to keep the tooltip instead.<br>
+Engine metrics roar to life in the final dashboard.  A 28% decrease in weight and the 46% decrease in horsepower contributed to the 88% MPG improvement and a 31% improvement in acceleration.<br>
+<br>
+Blended and dual axis scales allowed the three independent metrics to show with a shared x-axis.  Horsepower was not able to be blended in without an unfortunate side effect of an inaccurate tooptip.  having been thoroughly explored on prior dashboards the decision was made to keep the tooltip instead.<br>
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/metrics.PNG"></kbd></p><br>
 <br>
@@ -65,7 +69,7 @@ Training of the data begins...<br>
 <br>
 Linear models explored include Linear, Ridge, Lasso, and ElasticNet.  <br>
 <br>
-<p align="center"><kbd><img width="410" height="auto" hspace="15" src="images/linear.PNG"></kbd>&nbsp;&nbsp;&nbsp;<kbd><img width="410" height="auto" hspace="15" src="images/elasticnet.PNG"></kbd></p>
+<p align="center"><kbd><img width="390" height="auto" hspace="15" src="images/linear.PNG"></kbd>&nbsp;&nbsp;&nbsp;<kbd><img width="390" height="auto" hspace="15" src="images/elasticnet.PNG"></kbd></p>
 <br>
 Random Forest models explored are DecisionTree, Random Forest, AdaBoost, and Gradient Boost.<br>
 <br>
