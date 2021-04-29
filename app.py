@@ -18,6 +18,30 @@ def home():
     # Return template and data
     return render_template("index.html")
 
+@app.route("/index")
+def index():
+    return render_template("index.html")
+
+@app.route("/viz")
+def viz():
+    return render_template("viz.html")
+
+@app.route("/ML")
+def ml():
+    return render_template("ML.html")
+
+@app.route("/dataset")
+def dataset():
+    return render_template("dataset.html")
+
+@app.route("/about_us")
+def about_us():
+    return render_template("about_us.html")
+
+@app.route("/play")
+def play():
+    return render_template("play.html")
+
 @app.route("/makePredictions", methods=["POST"])
 def makePredictions():
     content = request.json["data"]
