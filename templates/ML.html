@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>MPG Prediction</title>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="../static/assets/css/bootstrap4-retro.min.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Shrikhand" rel="stylesheet">
+
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- JS -->
+  <script type="text/javascript" src="../static/assets/js/logic.js"></script>
+  <!-- Boostrap -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/minty/bootstrap.min.css"> -->
+</head>
+
+<body>
+
+  <div class="bg-danger navbar-dark text-white">
+    <div class="container">
+      <nav class="navbar px-0 navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a href="/index" class="pl-md-0 p-3 text-white">Front Page</a>
+            <a href="/viz" class="p-3 text-decoration-none text-white">Visualizations</a>
+            <a href="/ML" class="p-3 text-decoration-none text-white">Machine Learning</a>
+            <a href="/play" class="p-3 text-decoration-none text-white">The Mechanics</a>
+            <a href="/dataset" class="p-3 text-decoration-none text-white">Under the Hood</a>
+            <a href="/about_us" class="p-3 text-decoration-none text-white">About Us</a>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+  </div>
+
+
+
+  <div class="container py-5 mb5">
+    <h1 class="display-4">How is your Fuel Efficiency?</h1>
+  </div>
+
+  <hr style="color:lightgray; border-width: 3px;">
+  <div class="container">
+    <div class="card border-primary mb-3" style="max-width: 20rem;">
+      <div class="card-header">Configure your Engine</div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label class="col-form-label" for="displacement">Displacement</label>
+              <input type="text" class="form-control" value="140" id="displacement">
+            </div>
+            <div class="form-group">
+              <label class="col-form-label" for="horsepower">Horsepower</label>
+              <input type="text" class="form-control" value="90" id="horsepower">
+            </div>
+            <div class="form-group">
+              <label class="col-form-label" for="weight">Weight</label>
+              <input type="text" class="form-control" value="2408" id="weight">
+            </div>
+            <div class="form-group">
+              <label class="col-form-label" for="acceleration">Acceleration</label>
+              <input type="text" class="form-control" value="19.5" id="acceleration">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label class="col-form-label" for="year">Model Year</label>
+              <select id="year">
+                <option value="70">70</option>
+                <option value="71">71</option>
+                <option value="72">72</option>
+                <option value="73">73</option>
+                <option value="74">74</option>
+                <option value="75">75</option>
+                <option value="76">76</option>
+                <option value="77">77</option>
+                <option value="78">78</option>
+                <option value="79">79</option>
+                <option value="80">80</option>
+                <option value="81">81</option>
+                <option value="82">82</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="col-form-label" for="cylinders">Nº Cylinders</label>
+              <select id="cylinders"><br>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="8">8</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="col-form-label" for="origin">Origin</label>
+              <select id="origin">
+                <option value="1">American</option>
+                <option value="2">European</option>
+                <option value="3">Japanese</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <button type="button" class="btn btn-primary" id="filter">Make Prediction!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr style="color:lightgray; border-width: 3px;">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 id="output"></h1>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script> -->
+
+</body>
+
+</html>
