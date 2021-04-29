@@ -45,7 +45,7 @@ Engine metrics roar to life in the final two dashboards.  A 28% decrease in weig
 <br>
 Blended and dual axis scales allowed the three independent metrics to show with a shared x-axis.<br>
 <br>
-<p align="center"><kbd><img width="700" height="auto" src="images/metrics.PNG"></kbd></p>&nbsp;&nbsp;&nbsp;<kbd><img width="390" height="auto" hspace="15" src="images/metrics2.PNG"></kbd></p>
+<p align="center"><kbd><img width="390" height="auto" hspace="15" src="images/metrics.PNG"></kbd></p>&nbsp;&nbsp;&nbsp;<kbd><img width="390" height="auto" hspace="15" src="images/metrics2.PNG"></kbd></p>
 <br>
 <h3>Machine Learning</h3>
 <br>
