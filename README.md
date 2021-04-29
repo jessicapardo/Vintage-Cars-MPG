@@ -37,7 +37,7 @@ The user then explicity views the 46% reduction in horsepower between 1970 and 1
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/hp-mpg.PNG"></kbd></p>
 <br>  
-Engine metrics roar to life in the final dashboard.  A 28% decrease in weight and the 46% decrease in horsepower contributed to the 88% MPG improvement and a 31% improvement in acceleration. 
+Engine metrics roar to life in the final dashboard.  A 28% decrease in weight and the 46% decrease in horsepower contributed to the 88% MPG improvement and a 31% improvement in acceleration.<br>
 <br>
 Blended and dual axis scales allowed the three independent metrics to show with a shared x-axis.  Horsepower was not able to be blended in without an unfortunate side effect of an inaccurate tooptip.  having been thoroughly explored on prior dashboards the decision was made to keep the tooltip instead.<br>
 <br>
