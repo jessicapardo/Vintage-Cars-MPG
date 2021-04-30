@@ -22,39 +22,36 @@ button.on("click", function () {
     // Prevent the page from refreshing
     d3.event.preventDefault();
 
-    // Declare variables for date, state, and shape
-    let inputElement = d3.select("#datetime");
-    let inputElement4 = d3.select("#city");
-    let inputElement2 = d3.select("#state");
-    let inputElement5 = d3.select("#country");
-    let inputElement3 = d3.select("#shape");
+    // Declare variables for date, make, and country
+    let inputElement = d3.select("#Model_Year");
+    let inputElement2 = d3.select("#Make");
+    let inputElement3 = d3.select("#Country");
 
-    // Get the value property of the input date, state, and shape
-    let inputValue = inputElement.property("value").toLowerCase();
-    let inputValue2 = inputElement2.property("value").toLowerCase();
-    let inputValue3 = inputElement3.property("value").toLowerCase();
-    let inputValue4 = inputElement4.property("value").toLowerCase();
-    let inputValue5 = inputElement5.property("value").toLowerCase();
+    
+    // Get the value property of the input date, make, and country
+    let inputValue = inputElement.property("value")
+    let inputValue2 = inputElement2.property("value")
+    let inputValue3 = inputElement3.property("value")
 
     // console.log input value
     console.log(inputValue);
 
-    // Filter Data with datetime equal to input value and then filter by state and shape, if input
+    // Filter Data with datetime equal to input value and then filter make and country, if input
     let filteredData = data.filter(sighting => {
-    return (sighting.datetime === inputValue  || !inputValue) &&
-    (sighting.city === inputValue4 || !inputValue4) &&
-    (sighting.state === inputValue2 || !inputValue2) &&
-    (sighting.country === inputValue5 || !inputValue5) &&
-    (sighting.shape === inputValue3 || !inputValue3)
+        return (sighting.Model_Year === inputValue || !inputValue) &&
+            (sighting.Make === inputValue2 || !inputValue2) &&
+            (sighting.Country === inputValue3 || !inputValue3)
     });
+
+    console.log(filteredData);
 
     // Display filtered values
     filteredData.forEach(function (selections) {
 
-        // Append one table row `tr` for each UFO Sighting object
+        // Append one table row `tr` for each car object
         let row = tbody.append("tr");
 
-        // Use `Object.entries` to console.log each UFO Sighting value
+        // Use `Object.entries` to console.log each car value
         Object.entries(selections).forEach(function ([key, value]) {
             console.log(key, value); // This line of code can be deleted
 

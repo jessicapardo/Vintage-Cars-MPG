@@ -34,11 +34,12 @@ body {
 
 .filters .panel-body {
     padding: 0;
-    background-color: #FD7E14
+    background-color: #FFC107;
 }
 
 .filters {
     margin-top: 10px;
+    background-color: #FFC107
 }
 
 select {
@@ -50,6 +51,11 @@ select {
 }
 
 #table-area th {
+    text-align: center;
+    background-color: #FFC107
+}
+
+#table-area tr {
     text-align: center;
 }
 
