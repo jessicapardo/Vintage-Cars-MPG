@@ -24,7 +24,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a href="/index" class="pl-md-0 p-3 text-white">Front Page</a>
+            <a href="/index" class="pl-md-0 p-3 text-white">Garage</a>
             <a href="/viz" class="p-3 text-decoration-none text-white">Visualizations</a>
             <a href="/ML" class="p-3 text-decoration-none text-white">Machine Learning</a>
             <a href="/play" class="p-3 text-decoration-none text-white">The Mechanics</a>
@@ -33,10 +33,15 @@
           </div>
         </div>
       </nav>
-
     </div>
   </div>
+
   <div class="container">
+    <style>
+      body {
+        background-image: url("static/assets/img/logosorange.png");
+      }
+    </style>
     <div class="row margin-top-50">
       <div class="col-md-2">
         <aside class="filters">
@@ -61,8 +66,8 @@
                     
                   </ul>
                 </div>
-                <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
-                <button id="clear-btn" type="button" class="btn btn-default" onClick="window.location.href=window.location.href">Clear Filters</button>
+                <button id="filter-btn" type="button" margin: auto class="btn btn-default">Filter Table</button>
+                <button id="clear-btn" type="button" margin: auto class="btn btn-default" onClick="window.location.href=window.location.href">Clear Filters</button>
                 </form>
             </div>
           </div>
