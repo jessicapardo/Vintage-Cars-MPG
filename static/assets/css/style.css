@@ -1,6 +1,8 @@
+
+/* Table */
 * {
     box-sizing: border-box;
-    font-family: Ubuntu, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
 }
 
 html,
@@ -10,12 +12,13 @@ body {
     margin: 0;
 }
 
-  /* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
+/* The wrapper contains all of the page's content*/
 .wrapper {
     position: relative;
     min-height: 100%;
     padding-bottom: 130px;
     overflow: auto;
+    
 }
 
   /* Adding styles to the aside and filter form */
@@ -23,24 +26,62 @@ body {
     margin-top: 50px;
 }
 
-..panel-heading {
+/* Filter box top heading */
+.panel-heading {
     background-color: #FD7E14;
+    font-size: 16px;
 }
 
 .panel-default {
-    background-color: #FD7E14;
+    background-color: lightgray;
     color: #FD7E14;
+    text-align: center;
+    font-size: 16px;
 }
 
 .filters .panel-body {
     padding: 0;
-    background-color: #FFC107;
+    background-color: whitesmoke;
+    font-size: 16px;
 }
 
 .filters {
     margin-top: 10px;
-    background-color: #FFC107
+    background-color: whitesmoke
+    
 }
+
+#filter-btn {
+    background-color: #FFC107;
+    border-radius: 8px;
+    border: 2px solid black;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+
+#clear-btn {
+    background-color: #FFC107;
+    border-radius: 8px;
+    border: 2px solid black;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#filter-btn:hover {
+    background-color: #DC3545; 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#clear-btn:hover {
+    background-color: #DC3545; 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 
 select {
     display: block;
@@ -48,21 +89,29 @@ select {
     padding: 8px;
     color: #8e979f;
     outline: none;
+    font-size: 16px;
 }
 
 #table-area th {
     text-align: center;
     background-color: #FFC107
+    
+}
+
+.table-head {
+    font-size: 14px;
 }
 
 #table-area tr {
     text-align: center;
 }
 
+
 #table-area th:first-child,
 #table-area th:nth-child(2),
 #table-area th:nth-child(6) {
-    min-width: 70px;
+    min-width: 80px;
+    font-size: 12px;
 }
 
 .loader {
@@ -73,33 +122,7 @@ select {
     margin-top: 50px;
 }
 
-  /* The styles for the parallax */
-.hero {
-    position: relative;
-    height: 550px;
-    padding: 20px;
-    margin: 0;
-    background: #FD7E14;
-    background-image: url("../images/nasa.jpg");
-    background-attachment: fixed;
-    background-position: bottom center;
-    background-size: cover;
-}
-
-.hero h1 {
-    margin-top: 200px;
-    font-size: 0.1rem;
-    animation: title 1.2s forwards linear;
-}
-
-.hero p {
-    font-size: 2rem;
-    opacity: 0;
-    animation: subtitle 1.2s forwards linear;
-    animation-delay: 1.2s;
-}
-
-  /* input placeholder color changes */
+/* input placeholder color changes */
 .form-control::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     color: #8e979f;
@@ -167,41 +190,97 @@ select {
     text-align: center;
     content: attr(data-th);
     }
-
-    .hero h1 {
-    animation: smaller-title 1.2s forwards linear;
-    }
 }
 
-  /* keyframe animations which will be used to animate the title */
-@keyframes title {
-    from {
-    opacity: 0;
-    }
+/* Garage Page */
 
-    to {
-    font-size: 7.5rem;
-    opacity: 1;
-    }
+/*Slide show - https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp*/
+
+*{
+    box-sizing: border-box;
 }
 
-@keyframes smaller-title {
-    from {
-    opacity: 0;
-    }
-
-    to {
-    font-size: 5.5rem;
-    opacity: 1;
-    }
+  /* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
 }
 
-@keyframes subtitle {
-    from {
-    opacity: 0;
-    }
+  /* Hide the images by default */
+.mySlides {
+    display: none;
+}
 
-    to {
+  /* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+  /* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #DC3545;
+    font-weight: bold;
+    font-size: 50px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+  /* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: #FFC107;
+    color: #DC3545;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+  /* Container for image text */
+.caption-container {
+    text-align: center;
+    font-size: 18px;
+    background-color: #DC3545;
+    padding: 2px 4px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+  /* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+  /* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
     opacity: 1;
-    }
 }
