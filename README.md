@@ -1,11 +1,11 @@
 <html>
 
-<p align="left"><img width="1000" height="auto" src="images/header.PNG">          
+<p align="left"><img width="1000" height="auto" src="images/header.PNG"></p>          
 <body>
 <p>
 <h2>Predicting the Gas Mileage of your New Vintage Car</h2>
-The project intertwines Tableau and Machine learning to predict mpg values for cars in the 70's and 80's. The websiste is deployed utilizing Flask and Heroku and the visualizations are available at Tableau Public: <a href="https://public.tableau.com/profile/dana.woodruff#!/vizhome/Vintage-Car-MPG/VintageCars?publish=yes">Vintage-Cars-MPG.</a><br> 
-  
+The project intertwines Tableau and Machine learning to predict mpg values for cars in the 70's and 80's. The websiste is deployed utilizing Flask and Heroku and the visualizations are available at Tableau Public: <a href="https://public.tableau.com/profile/dana.woodruff#!/vizhome/Vintage-Car-MPG/VintageCars?publish=yes">Vintage-Cars-MPG.</a><br><br>
+<p align="center"><kbd><img width="700" height="auto" src="images/prediction.PNG"></kbd></p><br>  
 <h2>Vintage Cars' Journey Towards Fuel Efficiency - with user interactivity</h2>
 Tableau visualizes the journey automobiles took from 1970 to 1982 as world events incentivized manufacturers to reduce vehicle weight and horsepower to improve fuel efficiency. Our road begins with understanding how world oil prices and MPG trended over the twelve years included in the dataset.<br>
 <br>
@@ -85,7 +85,22 @@ The Random Forest model was choosen because it has the lowest RMSE and doesn't o
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/rf-final.PNG"></kbd></p>
 <br>
-<p align="center"><kbd><img width="1000" height="100" src="images/header.PNG"></kbd><br>                     
-
+<h3>Web Deployment</h3>
+<br>
+The project was packaged as a full stack web deployment on Heroku.<br><br>
+The "Garage" page introduces the user to the project. it includes an interactive slideshow with twelve car images from the time period. A navigation bar allows the user to visit several different pages:<br><br>
+<p align="center">Visualizations - This is the Tableau storyboard</p>
+<p align="center">Machine learning - This is the predictive activity</p>
+<p align="center">The Mechanics - This is the explanation of the Machine Learning behind the prediction.</p>
+<p align="center">Under the Hood - This is the dataset. This can be filtered by one to three metrics.</p>
+<p align="center">About Us - This is the team that crafted the project.</p>
+<br>
+<p align="center"><kbd><img width="700" height="auto" src="images/garage.PNG"></kbd><br><br>
+<kbd><img width="700" height="auto" src="images/webml.PNG"></kbd><br><br>  
+<kbd><img width="700" height="auto" src="images/underhood.PNG"></kbd></p><br>
+<br>
+<br>
+<p align="center"><kbd><img width="1000" height="100" src="images/header.PNG"></kbd></p><br>                     
+<br>
 </body>
 </html>
