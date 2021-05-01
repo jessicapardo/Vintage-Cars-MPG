@@ -50,68 +50,74 @@
       <h1 class="display-4">MPG Data</h1>
     </div>
   </div>
-<br><br>
+  <br><br>
 
 
+
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-2">
-        <hr style="color:lightgray; border-width: 3px;">
-      <aside class="filters">
-        <div class="panel panel-default">
-          <div class="panel-heading">Filter by one or more search criteria:</div>
-          <div class="panel-body">
-            <form>
-              <div class="form-group">
-                <ul class="list-group" id="filters">
-                  <li class="filter list-group-item">
-                    <label for="Model_Year">Model Year (1970-1982)</label>
-                    <input class="form-control" id="Model_Year" type="text" placeholder="1970">
-                  </li>
-                  <li class="filter list-group-item">
-                    <label for="Make">Make</label>
-                    <input class="form-control" id="Make" type="text" placeholder="AMC">
-                  </li>
-                  <li class="filter list-group-item">
-                    <label for="Country">Country</label>
-                    <input class="form-control" id="Country" type="text" placeholder="England">
-                  </li>
+      <div class="col-md-3">
+        <div class="card border-primary mb-3" style="max-width: 20rem;">
+          <div class="card-header">Find your favorite car!</div>
+          <div class="card-body">
+            <aside class="filters">
+              <div class="panel panel-default">
+                <div class="panel-heading">Filter by one or more search criteria:</div>
+                <div class="panel-body">
+                  <form>
+                    <div class="form-group">
+                      <ul class="list-group" id="filters">
+                        <li class="filter list-group-item">
+                          <label for="Model_Year">Model Year (1970-1982)</label>
+                          <input class="form-control" id="Model_Year" type="text" placeholder="1970">
+                        </li>
+                        <li class="filter list-group-item">
+                          <label for="Make">Make</label>
+                          <input class="form-control" id="Make" type="text" placeholder="AMC">
+                        </li>
+                        <li class="filter list-group-item">
+                          <label for="Country">Country</label>
+                          <input class="form-control" id="Country" type="text" placeholder="England">
+                        </li>
 
-                </ul>
+                      </ul>
+                    </div>
+                    <button id="filter-btn" type="button" margin: auto class="btn btn-primary">Filter Table</button>
+                    <button id="clear-btn" type="button" margin: auto class="btn btn-primary"
+                      onClick="window.location.href=window.location.href">Clear Filters</button>
+                  </form>
+                </div>
               </div>
-              <button id="filter-btn" type="button" margin: auto class="btn btn-primary">Filter Table</button>
-              <button id="clear-btn" type="button" margin: auto class="btn btn-primary"
-                onClick="window.location.href=window.location.href">Clear Filters</button>
-            </form>
+            </aside>
           </div>
         </div>
-      </aside>
-      <hr style="color:lightgray; border-width: 3px;">
-    </div>
+      </div>
 
-    <div class="col-md-8">
-      <table class="table">
-        <thead class="thead-light">
-          <tr>
-            <th scope="col">Model Year</th>
-            <th scope="col">Make</th>
-            <th scope="col">Model</th>
-            <th scope="col">MPG</th>
-            <th scope="col">Cylinders</th>
-            <th scope="col">Displacement</th>
-            <th scope="col">Horsepower</th>
-            <th scope="col">Acceleration</th>
-            <th scope="col">Weight</th>
-            <th scope="col">Country</th>
-          </tr>
-        </thead>
-        <tbody>
-        </tbody>
+      <div class="col-md-9">
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Model Year</th>
+              <th scope="col">Make</th>
+              <th scope="col">Model</th>
+              <th scope="col">MPG</th>
+              <th scope="col">Cylinders</th>
+              <th scope="col">Displacement</th>
+              <th scope="col">Horsepower</th>
+              <th scope="col">Acceleration</th>
+              <th scope="col">Weight</th>
+              <th scope="col">Country</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
 
-      </table>
+        </table>
+
+      </div>
     </div>
-    <div class= "col-md-1"></div>
-    </div>
+    <div class="col-md-1"></div>
+  </div>
 
   </div>
 
