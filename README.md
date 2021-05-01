@@ -85,8 +85,6 @@ The Random Forest model was choosen because it has the lowest RMSE and doesn't o
 <br>
 <p align="center"><kbd><img width="700" height="auto" src="images/rf-final.PNG"></kbd></p>
 <br>
-<p align="center"><kbd><img width="1000" height="100" src="images/header.PNG"></kbd><br>                     
-<br>
 <h3>Web Deployment</h3>
 <br>
 The project was packaged as a full stack web deployment on Heroku.<br>
@@ -101,6 +99,8 @@ The "Garage" page introduces the user to the project.  A navigation bar allows t
 <kbd><img width="700" height="auto" src="images/webml.PNG"></kbd></p><br>
 <kbd><img width="700" height="auto" src="images/underhood.PNG"></kbd></p><br>
 <br>
+<br>
+<p align="center"><kbd><img width="1000" height="100" src="images/header.PNG"></kbd></p><br>                     
 <br>
 </body>
 </html>
