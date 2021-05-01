@@ -86,6 +86,21 @@ The Random Forest model was choosen because it has the lowest RMSE and doesn't o
 <p align="center"><kbd><img width="700" height="auto" src="images/rf-final.PNG"></kbd></p>
 <br>
 <p align="center"><kbd><img width="1000" height="100" src="images/header.PNG"></kbd><br>                     
-
+<br>
+<h3>Web Deployment</h3>
+<br>
+The project was packaged as a full stack web deployment on Heroku.<br>
+The "Garage" page introduces the user to the project.  A navigation bar allows the user to visit several different pages:<br>
+<p align="center">Visualizations - This is the Tableau storyboard</p>
+<p align="center">Machine learning - This is the predictive activity</p>
+<p align="center">The Mechanics - This is the explanation of the Machine Learning behind the prediction.</p>
+<p align="center">Under the Hood - This is the dataset. This can be filtered by one to three metrics.</p>
+<p align="center">About Us - This is the team that crafted the project.</p>
+<br>
+<p align="center"><kbd><img width="700" height="auto" src="images/garage.PNG"></kbd><br>
+<kbd><img width="700" height="auto" src="images/webml.PNG"></kbd></p><br>
+<kbd><img width="700" height="auto" src="images/underhood.PNG"></kbd></p><br>
+<br>
+<br>
 </body>
 </html>
