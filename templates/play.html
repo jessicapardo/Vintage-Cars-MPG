@@ -42,6 +42,7 @@
 
     </div>
   </div>
+  
 
   <div class="row text-center" style="margin-top:3%">
     <div class="col-md-12">
@@ -49,83 +50,85 @@
     </div>
   </div>
 
-  <div class="container">
+  <div class="container" style="font-size:20px;">
     <div class="row">
       <div class="col-lg-12 col-md-12" style="margin-top:5%">
-        <div class="box" style="padding-bottom: 20px;">
-          <h3 class="title"><b>Introduction</b></h3>
+        <div class="box" style="padding-bottom: 22px;">
+          <h3 class="title"><b>Introduction</b></h3><br>
           <p> In this project we used various machine learning models, trained and tested the data to see the models
             ability to predict the MPG (Mile Per Gallon) for a vehicle and tells us about the efficiency of fuel
             consumption of a vehicle in the 70s and 80s base on other attributes of that vehicle. We used linear,
-            decision tree and random forest models.
+            decision tree and random forest models.<br>
+            <br>
           </p>
-          <h3 class="title"><b>Data Preprocessing</b></h3>
+          <h3 class="title"><b>Data Preprocessing</b></h3><br>
           <p>
             The first step in our analysis was to clean and pre-process our dataset to make ready for our machine
             learning analysis. The dataset was imported into Jupyter Notebook and read into a pandas dataframe. Data was
-            examined for null values and understood prior to machine learning model implementation.
+            examined for null values and understood prior to machine learning model implementation.<br>
+          <br>
           </p>
-          <a>
-            <img class="panel" src="../static/images/MLA1.PNG" alt="Data Gathering and Preprocessing">
-          </a>
+          <p style="text-align:center;">
+            <img style="border:2px groove #FFC107;" class="panel" src="../static/images/MLA1.PNG" alt="Data Gathering and Preprocessing">
+          </p>
           <br>
           <br>
           <p>
-            To enhance our understanding of the data distribution, we looked at the histogram of numerical features
-            <a>
-              <img class="panel" src="../static/images/MLA2.PNG" alt="Data Histogram">
-            </a>
+            To enhance our understanding of the data distribution, we looked at the histogram of numerical features.<br><br>
+            <p style="text-align:center;">
+              <img style="border:2px groove #FFC107;" class="panel" src="../static/images/MLA2.PNG" alt="Data Histogram">
+            </p><br>
           </p>
           <p>
             It was observed that "origin" and "cylinders" are far from normal distribution and for that reason this
-            features
-            were analyzed and label encoded as categorical.
+            features were analyzed and label encoded as categorical.<br>
           </p>
           <br>
-          <h3 class="title"><b>Correlation</b></h3>
+          <h3 class="title"><b>Correlation</b></h3><br>
           <p>
             The gerenarion of a pair plot was able to give us a brief overview of how each variable behaves with respect
             to every other variable. In this case, the MPG column (the target variable) is negatively correlated with
             the displacement, weight, and horsepower features.<br>
+            <br>
             Also, the pair plot clearly demonstrates that "cylinders" and "origin" fields do not shows a normal
-            distribution as they represent a specific value and can be considered categorical values.
+            distribution as they represent a specific value and can be considered categorical values.<br><br>
           </p>
-          <a>
-            <img class="panel" src="../static/images/ml4.PNG" alt="Pair plot">
-          </a>
+          <p style="text-align:center;">
+            <img style="border:2px groove #FFC107;" class="panel" src="../static/images/ml4.PNG" alt="Pair plot">
+          </p><br>
           <p>
-            In the coorelation analysis we have found that weight and displacement have the highest correlation with
-            MPG. On the other hand, origin and number of cilynders have the lowest correlation.
+            In the correlation analysis we have found that weight and displacement have the highest correlation with
+            MPG. On the other hand, origin and number of cilynders have the lowest correlation.<br><br>
           </p>
-          <a>
-            <img class="panel" src="../static/images/ml5.PNG" alt="Pair plot">
-          </a>
+          <p style="text-align:center;">
+            <img style="border:2px groove #FFC107;" class="panel" src="../static/images/ml5.PNG" alt="Pair plot">
+          </p>
           <br>
-          <h3 class="title"><b>Selecting and Training Machine Learning Models</b></h3>
+          <h3 class="title"><b>Selecting and Training Machine Learning Models</b></h3><br>
           <p>
-            Since this is a regression problem, the following models were selected:<br>
+            Since this is a regression problem, the following models were selected:<br><br>
             1. Linear Regression<br>
             2. Ridge<br>
             3. Lasso<br>
             4. ElasticNet<br>
-            5.Decision Tree Regressor<br>
+            5. Decision Tree Regressor<br>
             6. Random Forest Regressor<br>
             7. Ada Boost Regressor<br>
-            8. Gradient Boosting Regressor<br>
+            8. Gradient Boosting Regressor<br><br>
             Each of the models were evaluated using Root Mean Squared Error (typical performance metric for regression
-            problems).
+            problems).<br><br>
           </p>
-          <a>
-            <img class="panel" src="../static/images/MLA3.PNG" alt="Models RMSE">
-          </a>
+          <p style="text-align:center;">
+            <img style="border:2px groove #FFC107;" class="panel" src="../static/images/MLA3.PNG" alt="Models RMSE">
+          </p>
           <br>
           <br>
-          <p>Based on this comparison,The Random Forest model was choosen because it has the lowest RMSE and doesn't
-            overfit the in sample data.</p>
-          <h3 class="title"><b>Ramdom Forest Final Model</b></h3>
-          <a>
-            <img class="panel" src="../static/images/rf-final.PNG" alt="RF Final">
-          </a>
+          <p>Based on this comparison, the Random Forest model was choosen because it has the lowest RMSE and doesn't
+            overfit the in sample data.</p><br>
+          <h3 class="title"><b>Random Forest Final Model</b></h3><br>
+          <p style="text-align:center;">
+            <img style="border:2px groove #FFC107;" class="panel" src="../static/images/rf-final.PNG" alt="RF Final">
+          </p>
         </div>
       </div>
     </div>
