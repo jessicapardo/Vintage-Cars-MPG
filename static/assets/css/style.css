@@ -2,7 +2,6 @@
 /* Table */
 * {
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
 }
 
 html,
@@ -219,7 +218,7 @@ select {
 .prev,
 .next {
     cursor: pointer;
-    position: absolute;
+    position: relative;
     top: 40%;
     width: auto;
     padding: 16px;
