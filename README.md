@@ -4,7 +4,7 @@
 <body>
 <p>
 <h2>Predicting the Gas Mileage of your New Vintage Car</h2>
-The project intertwines Tableau and Machine learning to predict mpg values for cars in the 70's and 80's. The websiste is deployed utilizing Flask and Heroku and the visualizations are available at Tableau Public: <a href="https://public.tableau.com/profile/dana.woodruff#!/vizhome/Vintage-Car-MPG/VintageCars?publish=yes">Vintage-Cars-MPG.</a><br><br>
+The project intertwines Tableau and Machine learning to predict mpg values for cars in the 70's and 80's. The website is deployed utilizing Flask and Heroku and the visualizations are available at Tableau Public: <a href="https://public.tableau.com/profile/dana.woodruff#!/vizhome/Vintage-Car-MPG/VintageCars?publish=yes">Vintage-Cars-MPG.</a><br><br>
 <p align="center"><kbd><img width="700" height="auto" src="images/prediction.PNG"></kbd></p><br>  
 <h2>Vintage Cars' Journey Towards Fuel Efficiency - with user interactivity</h2>
 Tableau visualizes the journey automobiles took from 1970 to 1982 as world events incentivized manufacturers to reduce vehicle weight and horsepower to improve fuel efficiency. Our road begins with understanding how world oil prices and MPG trended over the twelve years included in the dataset.<br>
@@ -86,8 +86,8 @@ The Random Forest model was choosen because it has the lowest RMSE and doesn't o
 <p align="center"><kbd><img width="700" height="auto" src="images/rf-final.PNG"></kbd></p>
 <br>
 <h3>Web Deployment</h3>
-<br>
-The project was packaged as a full stack web deployment on Heroku.<br><br>
+
+The project is packaged as a full stack web deployment on Heroku.<br><br>
 The "Garage" page introduces the user to the project. it includes an interactive slideshow with twelve car images from the time period. A navigation bar allows the user to visit several different pages:<br><br>
 <p align="center">Visualizations - This is the Tableau storyboard</p>
 <p align="center">Machine learning - This is the predictive activity</p>
