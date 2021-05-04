@@ -12,6 +12,9 @@ data.forEach((record) => {
     });
 });
 
+//changing table to datatable object
+$('#mpgTable').DataTable();
+
 // ***********************************************************************
 // Select the filter button for the table
 let button = d3.select("#filter-btn");
