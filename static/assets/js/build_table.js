@@ -1,4 +1,4 @@
-let tbody = d3.select("tbody");
+var tbody = d3.select("tbody");
 
 // Check that data is being called
 console.log(data);
@@ -12,12 +12,17 @@ data.forEach((record) => {
     });
 });
 
+//changing table to datatable object
+$('#mpgTable').DataTable();
+
 // ***********************************************************************
 // Select the filter button for the table
-let button = d3.select("#filter-btn");
+var button = d3.select("#filter-btn");
 button.on("click", function () {
 
-    tbody.html("");
+    //tbody.html("");
+    
+    $('#mpgTable').DataTable().clear().destroy();
 
     // Prevent the page from refreshing
     d3.event.preventDefault();
@@ -60,4 +65,5 @@ button.on("click", function () {
             cell.text(value);
         });
     });
+    $('#mpgTable').DataTable();
 });
