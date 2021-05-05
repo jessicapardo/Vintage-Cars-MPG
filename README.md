@@ -87,7 +87,7 @@ The Random Forest model was choosen because it has the lowest RMSE and doesn't o
 <br>
 <h3>Web Deployment</h3>
 
-The project is packaged as a full stack web deployment on Heroku.<br><br>
+The project is packaged as a full stack web deployment on <a href="https://vintagecarsmpg.herokuapp.com/is">Heroku.</a><br><br>
 The "Garage" page introduces the user to the project. it includes an interactive slideshow with twelve car images from the time period. A navigation bar allows the user to visit several different pages:<br><br>
 <p align="center">Visualizations - This is the Tableau storyboard</p>
 <p align="center">Machine learning - This is the predictive activity</p>
