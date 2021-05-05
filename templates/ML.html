@@ -56,102 +56,162 @@
   <hr style="color:lightgray; border-width: 3px;">
   <div class="container">
     <div class="row">
-    <div class="col-md-6">
-      <div class="card border-primary mb-3" style="max-width: 20rem;">
-        <div class="card-header">Configure your Engine</div>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="form-group">
-                <label class="col-form-label" for="displacement">Displacement</label>
-                <input type="text" class="form-control" value="140" id="displacement">
+      <div class="col-md-6">
+        <div class="card border-primary mb-3" style="max-width: 20rem;">
+          <div class="card-header">Configure your Engine</div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="col-form-label" for="displacement">Displacement</label>
+                  <input type="text" class="form-control" value="140" id="displacement">
+                </div>
+                <div class="form-group">
+                  <label class="col-form-label" for="horsepower">Horsepower</label>
+                  <input type="text" class="form-control" value="90" id="horsepower">
+                </div>
+                <div class="form-group">
+                  <label class="col-form-label" for="weight">Weight</label>
+                  <input type="text" class="form-control" value="2408" id="weight">
+                </div>
+                <div class="form-group">
+                  <label class="col-form-label" for="acceleration">Acceleration</label>
+                  <input type="text" class="form-control" value="19.5" id="acceleration">
+                </div>
               </div>
-              <div class="form-group">
-                <label class="col-form-label" for="horsepower">Horsepower</label>
-                <input type="text" class="form-control" value="90" id="horsepower">
-              </div>
-              <div class="form-group">
-                <label class="col-form-label" for="weight">Weight</label>
-                <input type="text" class="form-control" value="2408" id="weight">
-              </div>
-              <div class="form-group">
-                <label class="col-form-label" for="acceleration">Acceleration</label>
-                <input type="text" class="form-control" value="19.5" id="acceleration">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="col-form-label" for="year">Model Year</label>
+                  <select id="year">
+                    <option value="70">1970</option>
+                    <option value="71">1971</option>
+                    <option value="72">1972</option>
+                    <option value="73">1973</option>
+                    <option value="74">1974</option>
+                    <option value="75">1975</option>
+                    <option value="76">1976</option>
+                    <option value="77">1977</option>
+                    <option value="78">1978</option>
+                    <option value="79">1979</option>
+                    <option value="80">1980</option>
+                    <option value="81">1981</option>
+                    <option value="82">1982</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="col-form-label" for="cylinders">Nº Cylinders</label>
+                  <select id="cylinders"><br>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="8">8</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="col-form-label" for="origin">Origin</label>
+                  <select id="origin">
+                    <option value="1">American</option>
+                    <option value="2">European</option>
+                    <option value="3">Japanese</option>
+                  </select>
+                </div>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="form-group">
-                <label class="col-form-label" for="year">Model Year</label>
-                <select id="year">
-                  <option value="70">1970</option>
-                  <option value="71">1971</option>
-                  <option value="72">1972</option>
-                  <option value="73">1973</option>
-                  <option value="74">1974</option>
-                  <option value="75">1975</option>
-                  <option value="76">1976</option>
-                  <option value="77">1977</option>
-                  <option value="78">1978</option>
-                  <option value="79">1979</option>
-                  <option value="80">1980</option>
-                  <option value="81">1981</option>
-                  <option value="82">1982</option>
-                </select>
+            <div class="row">
+              <div class="col-md-12">
+                <button type="button" class="btn btn-primary" id="filter">Make Prediction!</button>
               </div>
-              <div class="form-group">
-                <label class="col-form-label" for="cylinders">Nº Cylinders</label>
-                <select id="cylinders"><br>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="8">8</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label class="col-form-label" for="origin">Origin</label>
-                <select id="origin">
-                  <option value="1">American</option>
-                  <option value="2">European</option>
-                  <option value="3">Japanese</option>
-                </select>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <button type="button" class="btn btn-primary" id="filter">Make Prediction!</button>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
       <div class="col-md-6" style="margin-top:5%">
-        <h1 id="output" ></h1>
+        <h1 id="output"></h1>
         <div id="gauge">
         </div>
       </div>
     </div>
   </div>
 
-    <hr style="color:lightgray; border-width: 3px;">
+  <hr style="color:lightgray; border-width: 3px;">
+  <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Glossary</h1>
+      <table class="table table-bordered table-hover">
+        <caption>Key for the Machine Learning Inputs </caption>
+
+        <thead>
+          <tr>
+            <th>Input</th>
+            <th>Definition</th>
+            <th>Typical Range of Values</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Displacement</td>
+            <td>is the volume of the car’s engine, usually expressed in liters or cubic centimeters</td>
+            <td>65 - 460</td>
+          </tr>
+
+          <tr>
+            <td>Horsepower</td>
+            <td>is a unit of measurement of the power of an engine</td>
+            <td>45 - 230</td>
+          </tr>
+
+          <tr>
+            <td>Weight</td>
+            <td>is the gross vehicle weight</td>
+            <td>1600 - 5150</td>
+          </tr>
+          <tr>
+            <td>Acceleration</td>
+            <td>is the amount of time (in seconds) it takes to reach a velocity of 60 miles per hour.</td>
+            <td>8 - 25</td>
+          </tr>
+          <tr>
+            <td>Model Year</td>
+            <td>is the manufactured year of the car </td>
+            <td>1970 - 1982</td>
+          </tr>
+          <tr>
+            <td>No Cylinder</td>
+            <td>is the number of cylinders of the car</td>
+            <td>3  -8</td>
+          </tr>
+          <tr>
+            <td>Origin</td>
+            <td>is the origin region of the car </td>
+            <td></td>
+          </tr>
+        </tbody>
+
+      </table>
+
+    </div>
+  </div>
+</div>
 
 
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
 </body>
 
