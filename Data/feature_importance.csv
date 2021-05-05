@@ -1,0 +1,16 @@
+Feature,Importance
+displacement,0.424921257
+horsepower,0.127211198
+weight,0.217603689
+acceleration,0.027506728
+year,0.114691192
+cylinders_3,0.001372182
+cylinders_4,0.07573232
+cylinders_5,0.000259618
+cylinders_6,0.001027881
+cylinders_8,0.000216695
+origin_1,0.002971295
+origin_2,0.002425902
+origin_3,0.004060042
+cylinders,0.078608696
+origin,0.00945724
